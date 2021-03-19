@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>D:/Spring Tool Suite/sts-4.4.1.RELEASE/configuration/org.eclipse.osgi/865/0/.cp</location>
+		</link>
+	</linkedResources>
+</projectDescription>

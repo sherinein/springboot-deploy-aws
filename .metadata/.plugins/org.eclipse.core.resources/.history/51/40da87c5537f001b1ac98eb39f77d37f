@@ -1,0 +1,5 @@
+package org.fns.eshop.dto;
+
+public class Product {
+
+}

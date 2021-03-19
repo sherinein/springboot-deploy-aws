@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18264" started-at="2021-03-12T11:09:04 IST" finished-at="2021-03-12T11:09:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18264" started-at="2021-03-12T11:09:04 IST" finished-at="2021-03-12T11:09:23 IST">
+      <class name="com.cts.renibuilders.ReniBuildersApplicationSeleniumTest">
+        <test-method status="PASS" signature="testBeforeTest()[pri:0, instance:com.cts.renibuilders.ReniBuildersApplicationSeleniumTest@543788f3]" name="testBeforeTest" is-config="true" duration-ms="11221" started-at="2021-03-12T11:09:04 IST" finished-at="2021-03-12T11:09:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="testWhetherSearchApartmentIsLoaded()[pri:1, instance:com.cts.renibuilders.ReniBuildersApplicationSeleniumTest@543788f3]" name="testWhetherSearchApartmentIsLoaded" duration-ms="1347" started-at="2021-03-12T11:09:16 IST" finished-at="2021-03-12T11:09:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhetherSearchApartmentIsLoaded -->
+        <test-method status="PASS" signature="testWhetherCustomerNameIsEmpty()[pri:2, instance:com.cts.renibuilders.ReniBuildersApplicationSeleniumTest@543788f3]" name="testWhetherCustomerNameIsEmpty" duration-ms="744" started-at="2021-03-12T11:09:17 IST" finished-at="2021-03-12T11:09:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhetherCustomerNameIsEmpty -->
+        <test-method status="PASS" signature="testWhetherCityIsNotValid()[pri:3, instance:com.cts.renibuilders.ReniBuildersApplicationSeleniumTest@543788f3]" name="testWhetherCityIsNotValid" duration-ms="808" started-at="2021-03-12T11:09:18 IST" finished-at="2021-03-12T11:09:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhetherCityIsNotValid -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.cts.renibuilders.ReniBuildersApplicationSeleniumTest@543788f3]" name="afterTest" is-config="true" duration-ms="1078" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.cts.renibuilders.ReniBuildersApplicationSeleniumTest -->
+      <class name="com.cts.renibuilders.service.ApartmentServiceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cts.renibuilders.service.ApartmentServiceTest@6d3af739]" name="setUp" is-config="true" duration-ms="11" started-at="2021-03-12T11:09:04 IST" finished-at="2021-03-12T11:09:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWhetherCustomerSelectedIsNotValidCity()[pri:0, instance:com.cts.renibuilders.service.ApartmentServiceTest@6d3af739]" name="testWhetherCustomerSelectedIsNotValidCity" duration-ms="13" started-at="2021-03-12T11:09:19 IST" finished-at="2021-03-12T11:09:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhetherCustomerSelectedIsNotValidCity -->
+        <test-method status="PASS" signature="testWhetherCustomerSelectedIsValidCityWithPropertyType1BHK()[pri:0, instance:com.cts.renibuilders.service.ApartmentServiceTest@6d3af739]" name="testWhetherCustomerSelectedIsValidCityWithPropertyType1BHK" duration-ms="5" started-at="2021-03-12T11:09:19 IST" finished-at="2021-03-12T11:09:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhetherCustomerSelectedIsValidCityWithPropertyType1BHK -->
+        <test-method status="PASS" signature="testWhetherCustomerSelectedIsValidCityWithPropertyType2BHK()[pri:0, instance:com.cts.renibuilders.service.ApartmentServiceTest@6d3af739]" name="testWhetherCustomerSelectedIsValidCityWithPropertyType2BHK" duration-ms="3" started-at="2021-03-12T11:09:19 IST" finished-at="2021-03-12T11:09:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhetherCustomerSelectedIsValidCityWithPropertyType2BHK -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cts.renibuilders.service.ApartmentServiceTest@6d3af739]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.renibuilders.service.ApartmentServiceTest -->
+      <class name="com.cts.renibuilders.controller.ApartmentControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="setUp" is-config="true" duration-ms="2272" started-at="2021-03-12T11:09:19 IST" finished-at="2021-03-12T11:09:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPostCustomerDetailsFormValidationFail()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="testPostCustomerDetailsFormValidationFail" duration-ms="499" started-at="2021-03-12T11:09:21 IST" finished-at="2021-03-12T11:09:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostCustomerDetailsFormValidationFail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-12T11:09:21 IST" finished-at="2021-03-12T11:09:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="setUp" is-config="true" duration-ms="41" started-at="2021-03-12T11:09:21 IST" finished-at="2021-03-12T11:09:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testShowSearchApartment()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="testShowSearchApartment" duration-ms="5" started-at="2021-03-12T11:09:21 IST" finished-at="2021-03-12T11:09:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShowSearchApartment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-12T11:09:21 IST" finished-at="2021-03-12T11:09:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="setUp" is-config="true" duration-ms="42" started-at="2021-03-12T11:09:21 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcalculateestimateCostActive()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="testcalculateestimateCostActive" duration-ms="28" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcalculateestimateCostActive -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cts.renibuilders.controller.ApartmentControllerTest@16022d9d]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.renibuilders.controller.ApartmentControllerTest -->
+      <class name="com.cts.renibuilders.model.CustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cts.renibuilders.model.CustomerTest@1da51a35]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-12T11:09:04 IST" finished-at="2021-03-12T11:09:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCity()[pri:0, instance:com.cts.renibuilders.model.CustomerTest@1da51a35]" name="testCity" duration-ms="6" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCity -->
+        <test-method status="PASS" signature="testExpectedEmailId()[pri:0, instance:com.cts.renibuilders.model.CustomerTest@1da51a35]" name="testExpectedEmailId" duration-ms="1" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpectedEmailId -->
+        <test-method status="PASS" signature="testExpectedName()[pri:0, instance:com.cts.renibuilders.model.CustomerTest@1da51a35]" name="testExpectedName" duration-ms="1" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpectedName -->
+        <test-method status="PASS" signature="testMobileNo()[pri:0, instance:com.cts.renibuilders.model.CustomerTest@1da51a35]" name="testMobileNo" duration-ms="3" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobileNo -->
+        <test-method status="PASS" signature="testpropertyType()[pri:0, instance:com.cts.renibuilders.model.CustomerTest@1da51a35]" name="testpropertyType" duration-ms="2" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpropertyType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cts.renibuilders.model.CustomerTest@1da51a35]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-12T11:09:22 IST" finished-at="2021-03-12T11:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.renibuilders.model.CustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

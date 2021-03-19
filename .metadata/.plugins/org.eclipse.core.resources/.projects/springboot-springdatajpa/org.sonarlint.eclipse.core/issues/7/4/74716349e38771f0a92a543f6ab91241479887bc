@@ -1,0 +1,11 @@
+
+h
+java:S2583"CChange this condition so that it does not always evaluate to "true"(΅ Θ‘HοRMAJORZBUG
+v
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Δ―ΐHςRMINORZ
+CODE_SMELL
+
+java:S1488%"^Immediately return this expression instead of assigning it to the temporary variable "result".(½­ήHπRMINORZ
+CODE_SMELL
+r
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(θ’ιώHρRCRITICALZVULNERABILITY

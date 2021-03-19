@@ -1,0 +1,5 @@
+package org.fns.kafka.service;
+
+public class KafkaSender {
+
+}

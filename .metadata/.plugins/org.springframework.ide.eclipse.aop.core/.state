@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="rating-data-service"/>
+<aop-project name="discovery-server"/>
+<aop-project name="spring-cloud-eureka-server"/>
+<aop-project name="spring-cloud-zuulapi-gateway"/>
+<aop-project name="spring-cloud-oauth2"/>
+<aop-project name="springboot-oracle-springdatajpa-aws-docker"/>
+<aop-project name="movie-info-service"/>
+<aop-project name="spring-cloud-eureka-client-userservice"/>
+<aop-project name="springboot-mysql-springdatajpa-aws-docker"/>
+<aop-project name="movie-catalog-service"/>
+<aop-project name="springboot-kafka"/>
+</aop-reference-model>
